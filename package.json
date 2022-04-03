@@ -1,0 +1,26 @@
+{
+  "name": "zemen",
+  "version": "1.0.0",
+  "description": "Ethiopian calender library",
+  "main": "src/index.ts",
+  "repository": "https://github.com/m3hari/zemen.git",
+  "scripts": {
+    "build": "esbuild ./src/index.ts --bundle --outfile=./dist/zemen.min.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "26.x",
+    "esbuild": "0.x",
+    "jest": "26.x",
+    "ts-jest": "26.x",
+    "typescript": "^3.9.7"
+  },
+  "keywords": [
+    "date",
+    "calender",
+    "ethiopia",
+    "coptic"
+  ],
+  "author": "Mehari Geta <gm3hari@gmail.com>",
+  "license": "MIT"
+}
